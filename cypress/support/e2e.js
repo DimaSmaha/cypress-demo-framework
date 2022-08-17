@@ -15,13 +15,14 @@
 
 // Import commands.js using ES2015 syntax:
 
-import '@applitools/eyes-cypress/commands'
+import "@applitools/eyes-cypress/commands";
 
-import './commands'
-import 'cypress-mochawesome-reporter/register'
-import '@cypress-audit/lighthouse/commands'
+import "./commands";
+import "./commands-2";
+import "cypress-mochawesome-reporter/register";
+import "@cypress-audit/lighthouse/commands";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-require('cypress-grep')()
-require('cypress-xpath')
+require("cypress-grep")();
+require("cypress-xpath");
